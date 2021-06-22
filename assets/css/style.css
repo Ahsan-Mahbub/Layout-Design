@@ -490,6 +490,154 @@ ul.sub-menu {
     margin: 10px 0;
     text-align: center;
 }
+/* End Programming Section */
+
+/* Color Picker Secction */
+.color-ficker-section {
+    background-color: #f3ecea;
+}
+.full-box {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width-section-block .full-box h2 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+
+.full-width-section-block .full-box h4 {
+    font-size: 20px;
+    margin: 19.2px 0;
+    font-weight: 400;
+    color: #000;
+}
+.full-width-section-block .full-box img {
+    width: 150px;
+    height: 128px;
+    margin-top: 16px;
+}
+/* Color Picker Secction End */
+
+/* Code Game Section */
+.code-game-section {
+    background-color: #96d4d4;
+}
+
+.full-boxs {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-game-section .full-boxs h2 {
+    color: #000;
+    font-weight: normal;
+    font-family: 'Freckle Face', cursive;
+    font-size: 48px;
+}
+
+.code-game-section .full-boxs h4 {
+    color: #000;
+    font-size: 20px;
+    margin: 19.2px 0;
+    font-weight: 400;
+    font-family: 'Freckle Face', cursive;
+}
+
+.code-game-section .full-boxs img {
+    margin-top: 16px;
+    margin-bottom: 1.2em;
+}
+
+.code-game-section .full-boxs img:hover {
+    opacity: 0.6;
+}
+/* Code Game Section Ende */
+
+/* Exercises and Quizzes Section */
+.code-ex-section {
+    padding-bottom: 80px;
+    background: #282a35;
+    position: relative;
+    background-image: url('bgi.png');
+    background-repeat: no-repeat;
+}
+
+.code-ex-section .full-box h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.code-ex-section .full-box h4 {
+    color: #fff;
+    font-size: 20px;
+    margin: 19.2px 0;
+    font-weight: 400;
+}
+
+.con-qui h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.green-bg {
+    background: #4aa66b;
+}
+.green-bg:hover {
+    background: #3b9e5f;
+}
+.yellow-bg {
+    background: #f8ed9f;
+}
+.yellow-bg:hover {
+    background: #eee187;
+}
+/* Exercises and Quizzes Section End */
+
+/* Web Section */
+.web-section {
+    background-color: #e7e9eb;
+}
+.web-section .full-box h2 {
+    color: #000;
+    font-weight: normal;
+    font-size: 45px;
+    font-weight: 700;
+}
+.web-section .full-box h4 {
+    color: #000;
+    font-size: 20px;
+    margin: 19.2px 0;
+    font-weight: 400;
+}
+.full-box a .web-image {
+    width: 100%;
+    margin: 16px 0px 20px 0px;
+    height: auto;
+    vertical-align: middle;
+}
+.web-btn {
+    width: 50%;
+    padding: 15px;
+}
+/* Web section End */
 
 @keyframes moveLeftToRight {
     from {
