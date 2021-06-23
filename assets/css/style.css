@@ -524,6 +524,9 @@ ul.sub-menu {
     height: 128px;
     margin-top: 16px;
 }
+.full-width-section-block .full-box img:hover {
+    opacity: 0.6;
+}
 /* Color Picker Secction End */
 
 /* Code Game Section */
@@ -638,6 +641,157 @@ ul.sub-menu {
     padding: 15px;
 }
 /* Web section End */
+
+/* Career Section */
+.career-section {
+    position: relative;
+    padding: 40px 60px 80px 60px;
+    margin-bottom: 85px;
+    background-color: #282a35;
+    color: #ffc0c7;
+}
+.default-btn-c {
+    margin: 60px;
+    display: initial;
+    text-align: center;
+    padding: 20px 70px;
+    width: auto;
+    background: #00ac6d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+.default-btn-c:hover {
+    background: #087b51;
+}
+#w3_cert_arrow {
+    position: absolute;
+    right: 240px;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: 0;
+    z-index: 1;
+}
+#w3_cert_badge {
+    position: absolute;
+    right: 5%;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: -15%;
+}
+/* Career Section End */
+/* How To Section */
+.how-to-section {
+    background-color: #fff;
+}
+/* How To Section End */
+
+/* Footer Section */
+.footer-section {
+    background-color: #282a35;
+}
+.first-part {
+    padding: 20px 35px 40px 0px;
+}
+.lwr-col-33 {
+    width: calc(30.8% - 13%);
+    padding: 0% 1% 0px 1px;
+    display: inline-block;
+}
+.lwr-col-33:nth-child(1) {
+    padding-left: 40px;
+}
+.color-light {
+    background: #fff;
+}
+.color-light:hover {
+    background: #c5bebe;
+}
+.color-light h2 {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.boxed {
+    display: inline;
+    width: 50%;
+    float: left;
+}
+.linked {
+    display: inline;
+    width: 50%;
+    float: right;
+}
+.linked-line {
+    display: inline;
+    float: right;
+    padding: 0px 10px 0px 0px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+.linked a:hover {
+    color: darkgreen;
+}
+.social {
+    padding: 35px 30px 45px 20px;
+}
+.icon-social {
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.icon-social:hover {
+    color: #7d7c7c;
+}
+
+.w3-medium {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+.w3-hover-text-green {
+    color: #fff;
+}
+.w3-hover-text-green:hover {
+    color: darkgreen;
+}
+
+.icon-large {
+    color: #ddd;
+    display: grid;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.icon-large:hover {
+    color: #7d7c7c;
+}
+
+.default-btn-f {
+    margin-bottom: 16px;
+    margin-top: 32px;
+    padding: 12px 28px;
+    width: 50%;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.default-btn-f:hover {
+    background: #087b51;
+}
+/* Footer Section End */
 
 @keyframes moveLeftToRight {
     from {
